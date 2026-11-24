@@ -15,4 +15,4 @@ Promise.all([pm1, pm2, pm3])
     .then((values) => console.log('all: ' , values))
     .catch((err) => console.error('all failed: ', err.message));
 
-Promise.race([pm1, pm2]).then((v) => console.log('race winner: ', v));
+Promise.race([pm1, pm2]).then((v) => console.log('race winner: ', v))
